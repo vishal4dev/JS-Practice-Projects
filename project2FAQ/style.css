@@ -1,0 +1,71 @@
+body{
+    background: url(images/wallpaper2you_180219.jpg) no-repeat center center/ cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.container{
+    
+    background: white;
+    width: 65%;
+    border-radius: 30px;
+    padding:30px
+    
+}
+
+.container .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.container .main-content{
+    padding:10px;
+    
+}
+
+.container .main-content .questions{
+    padding: 16px,8px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    position: relative;
+}
+
+.container .main-content .questions::after{
+    content: '+';
+    position: absolute;
+    right:-5px
+    
+}
+
+.container .main-content .answers{
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    width: 100%;
+
+    height: 8px;
+    overflow: hidden;
+    transition: .5s;
+}
+/*js styling*/
+.container .main-content.active .answers{
+    height: 180px;
+}
+
+.container    .main-content.active .questions{
+    font-size: 18px;
+    transition: .5s;
+
+}
+
+.container .main-content.active .questions::after{
+    content:'-';
+    font-size: 20px;
+    transition: -5s;
+}
