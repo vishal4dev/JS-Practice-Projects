@@ -1,0 +1,3 @@
+Hey there! So i've created this text to document my first time learning about api's , im' going to use one right now..steps:
+
+->visited this site openweather to get weather api: created an accout
