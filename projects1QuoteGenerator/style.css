@@ -45,9 +45,10 @@ header{
 
 .main-content .person{
     font-size: 1.6rem;
-    color: blue;
+    color:red;
     margin-top: 20px;
     text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .button #newQuote{
     margin-top: 20px;
